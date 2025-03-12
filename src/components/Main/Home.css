@@ -1,0 +1,23 @@
+.bg-image {
+  background-image: url('/background.webp');
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: right;
+}
+
+@media screen and (max-width: 1400px) {
+  .bg-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+  }
+}
+
+/* TODO: Set respnsive design mobile */
+@media screen and (max-width: 640px) {
+  .bg-image {
+    background-image: url('/background-mobile.webp');
+    background-size: cover;
+    background-position: right;
+  }
+}

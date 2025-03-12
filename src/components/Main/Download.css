@@ -1,0 +1,21 @@
+.bg-image-dwn {
+  background-image: url('/background_download.webp');
+  background-size: cover;
+  background-position: right;
+}
+
+@media screen and (max-width: 1400px) {
+  .bg-image {
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+/* TODO: Set respnsive design mobile */
+@media screen and (max-width: 640px) {
+  .bg-image {
+    background-image: url('/background_download.webp');
+    background-size: cover;
+    background-position: right;
+  }
+}

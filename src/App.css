@@ -1,0 +1,14 @@
+#root {
+  margin: 0 auto;
+  background: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
