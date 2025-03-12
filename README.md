@@ -1,31 +1,46 @@
 # Ecualert Landing Page
 ![ecualert_meta](https://github.com/user-attachments/assets/9cce2d4f-1bca-44cc-b198-d341d8538321)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción General
 
-Currently, two official plugins are available:
+Ecualert es una aplicación móvil que revoluciona la seguridad comunitaria en Ecuador. Este repositorio contiene el código de la página de presentación que muestra las características y capacidades de la aplicación.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Sobre la Aplicación
 
-## Expanding the ESLint configuration
+Ecualert es un sistema de alarma comunitaria desarrollado en Android Studio que ayuda a los usuarios a estar siempre un paso adelante de cualquier emergencia. La aplicación se enfoca en mejorar la seguridad comunitaria a través de características innovadoras.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Estructura del Proyecto
 
-- Configure the top-level `parserOptions` property like this:
+La página de presentación está construida usando:
+- React con TypeScript
+- Arquitectura basada en componentes
+- Diseño responsivo
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Características Destacadas
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Sistema de alarma comunitaria
+- Notificaciones push
+- Geolocalización avanzada
+- Interfaz intuitiva y fácil de usar
+
+## Desarrollo
+
+Este proyecto utiliza:
+- Vite como herramienta de construcción
+- React para componentes de UI
+- TypeScript para seguridad de tipos
+- Tailwind CSS para estilización
+
+## Despliegue
+
+El sitio está desplegado en Vercel y accesible en [https://ecualert.vercel.app/](https://ecualert.vercel.app/)
+
+## Enlaces Relacionados
+
+- Repositorio de la Aplicación Móvil: [https://github.com/TWulfZ/ecualert/](https://github.com/TWulfZ/ecualert)
+- Política de Privacidad
+- Términos de Servicio
+
+---
+
+© Ecualert - Cuida la seguridad de los tuyos
