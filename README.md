@@ -1,4 +1,5 @@
-# React + TypeScript + Vite
+# Ecualert Landing Page
+![ecualert_meta](https://github.com/user-attachments/assets/9cce2d4f-1bca-44cc-b198-d341d8538321)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
